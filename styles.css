@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Photo.png); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 90%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e04400;
+}

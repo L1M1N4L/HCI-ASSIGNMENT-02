@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI ASSIGNMENT-02</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Restaurant Satisfaction Survey</h1>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"  required placeholder="Ida Bagus Kerthyayana Manuaba"><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="imanuaba@binus.edu"><br>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="XXX-XXXX-XXXX"><br>
+
+                        <label for="birthdate">Date of Birth:</label>
+                        <input type="date" id="birthdate" name="birthdate" required><br>
+                    </fieldset>
+                </td>
+                <td rowspan="2">
+                    <fieldset>
+                        <legend>Overall Rating</legend>
+                        <p>Please rate your overall experience:</p>
+                        <label for="rating1"><input type="radio" id="rating1" name="rating" value="5"> 5 Stars</label><br>
+                        <label for="rating2"><input type="radio" id="rating2" name="rating" value="4"> 4 Stars</label><br>
+                        <label for="rating3"><input type="radio" id="rating3" name="rating" value="3"> 3 Stars</label><br>
+                        <label for="rating4"><input type="radio" id="rating4" name="rating" value="2"> 2 Stars</label><br>
+                        <label for="rating5"><input type="radio" id="rating5" name="rating" value="1"> 1 Star</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Food Quality</legend>
+                        <p>How would you rate the food quality?</p>
+                        <label for="food_quality1"><input type="radio" id="food_quality1" name="food_quality" value="excellent"> Excellent</label><br>
+                        <label for="food_quality2"><input type="radio" id="food_quality2" name="food_quality" value="good"> Good</label><br>
+                        <label for="food_quality3"><input type="radio" id="food_quality3" name="food_quality" value="average"> Average</label><br>
+                        <label for="food_quality4"><input type="radio" id="food_quality4" name="food_quality" value="poor"> Poor</label><br>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Service</legend>
+                        <p>How would you rate the service?</p>
+                        <label for="service1"><input type="checkbox" id="service1" name="service[]" value="friendly"> Friendly Staff</label><br>
+                        <label for="service2"><input type="checkbox" id="service2" name="service[]" value="prompt"> Prompt Service</label><br>
+                        <label for="service3"><input type="checkbox" id="service3" name="service[]" value="knowledgeable"> Knowledgeable Staff</label><br>
+                        <label for="service4"><input type="checkbox" id="service4" name="service[]" value="attentive"> Attentive Service</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
